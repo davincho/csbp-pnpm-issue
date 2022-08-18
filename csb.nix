@@ -9,7 +9,7 @@ stdenv.mkDerivation {
     ];
     systemPackages = [
         nodePackages.pnpm
-    ]
+    ];
     shellHook = ''
         export PATH="$PWD/node_modules/.bin/:$PATH"
     '';
