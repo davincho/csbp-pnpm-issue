@@ -2,7 +2,7 @@
   "setupTasks": [
     {
       "name": "Fix permissons",
-      "command": "sudo -u pitcher-host chmod g+w /project/csbp-pnpm-issue -R"
+      "command": "sudo -u pitcher-host chmod g+w /project/csbp-pnpm-issue -R --quiet"
     },
     {
       "name": "Install",
